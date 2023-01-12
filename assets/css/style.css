@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 header{
     background: black;
 }
@@ -162,6 +165,7 @@ section.footer-1 .col ul li {
 }
 .social-media-icon a {
     font-size: 45px;
+    text-decoration: none;
 }
 .social-media-icon a:hover {
     color: #00c8a3;
@@ -468,6 +472,12 @@ main {
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-  }
+}
+.col-lg-4 img {
+    margin-left: 110px;
+}
+h2.featurette-heading.fw-normal.lh-1 {
+    padding-top: 100px;
+}
 
   
